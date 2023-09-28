@@ -23,7 +23,7 @@
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_person"
         android:hint="Nome de Usuário"
@@ -36,31 +36,33 @@
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10sp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_lock"
         android:hint="Insira sua senha"
         android:inputType="textPassword"
         android:maxLength="80"
         android:textColorHint="@color/white" />
+
     <Button
         android:id="@+id/edtSenha"
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10sp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_lock"
         android:hint="Insira seu e-mail"
         android:inputType="textPassword"
         android:maxLength="80"
         android:textColorHint="@color/white" />
+
     <Button
         android:id="@+id/edtSenha"
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10sp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_lock"
         android:hint="Insira seu telefone"
@@ -69,48 +71,35 @@
         android:textColorHint="@color/white" />
 
     <TextView
-
         android:id="@+id/txtEsqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:drawableRight="@drawable/baseline_checkbox"
-        android:text="Esqueceu sua senha?"
+        android:text="Termos e Condições"
         android:textColor="@color/white" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/edtSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/edtSenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="60sp"
-            android:backgroundTint="#AFBEEC"
-            android:hint="Entrar"
-            android:inputType="textPassword"
-            android:maxLength="80"
-            android:textColorHint="@color/white" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:text="Esqueceu sua senha?"
-            android:textColor="@color/white"
-    </LinearLayout>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#AFBEEC"
+        android:hint="Registrar"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:textColorHint="@color/white" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginLeft="190dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
         android:drawableRight="@drawable/baseline_flecha"
-        android:text="Não possui uma conta?"
+        android:text="Já possui uma conta?"
         android:textColor="@color/white" />
 
 
