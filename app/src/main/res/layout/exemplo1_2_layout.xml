@@ -14,7 +14,7 @@
         android:layout_width="105dp"
         android:layout_height="105dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="140dp"
         android:scaleType="centerCrop"
         android:src="@drawable/logo" />
 
@@ -39,36 +39,10 @@
         android:layout_margin="10sp"
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_lock"
-        android:hint="Senha"
+        android:hint="Insira sua senha"
         android:inputType="textPassword"
         android:maxLength="80"
         android:textColorHint="@color/white" />
-    <Button
-        android:id="@+id/edtSenha"
-        android:layout_width="300sp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10sp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:drawableEnd="@drawable/baseline_lock"
-        android:hint="Insira seu e-mail"
-        android:inputType="textPassword"
-        android:maxLength="80"
-        android:textColorHint="@color/white" />
-    <Button
-        android:id="@+id/edtSenha"
-        android:layout_width="300sp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10sp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:drawableEnd="@drawable/baseline_lock"
-        android:hint="Insira seu telefone"
-        android:inputType="textPassword"
-        android:maxLength="80"
-        android:textColorHint="@color/white" />
-
-
 
     <TextView
 
@@ -87,7 +61,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id=""
+            android:id="@+id/edtSenha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"

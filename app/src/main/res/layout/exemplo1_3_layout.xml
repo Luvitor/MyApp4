@@ -14,7 +14,7 @@
         android:layout_width="105dp"
         android:layout_height="105dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="30dp"
         android:scaleType="centerCrop"
         android:src="@drawable/logo" />
 
@@ -40,6 +40,30 @@
         android:backgroundTint="@color/cardview_dark_background"
         android:drawableEnd="@drawable/baseline_lock"
         android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:textColorHint="@color/white" />
+    <Button
+        android:id="@+id/edtSenha"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:hint="Insira seu e-mail"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:textColorHint="@color/white" />
+    <Button
+        android:id="@+id/edtSenha"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:hint="Insira seu telefone"
         android:inputType="textPassword"
         android:maxLength="80"
         android:textColorHint="@color/white" />
