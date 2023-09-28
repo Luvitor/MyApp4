@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/planodefundo"
+    android:orientation="vertical"
+    tools:context=".Layout1_3Activity">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/edtEmail"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:drawableEnd="@drawable/baseline_person"
+        android:hint="Nome de Usuário"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/edtSenha"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:textColorHint="@color/white" />
+
+    <TextView
+
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="60dp"
+        android:drawableRight="@drawable/baseline_checkbox"
+        android:text="Esqueceu sua senha?"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edtSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:backgroundTint="#AFBEEC"
+            android:hint="Entrar"
+            android:inputType="textPassword"
+            android:maxLength="80"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Esqueceu sua senha?"
+            android:textColor="@color/white"
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="150dp"
+        android:drawableRight="@drawable/baseline_flecha"
+        android:text="Não possui uma conta?"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

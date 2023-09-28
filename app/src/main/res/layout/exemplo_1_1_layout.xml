@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/planodefundo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtBemvindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Bem-Vindo"
+        android:textSize="40dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtLorota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Esse é o aplicativo AGA"
+        android:textSize="15dp"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/txtCompania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:text="AGA"
+        android:textSize="40dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtCompania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:text="MELHOR APP DO MUNDO"
+        android:textSize="15dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Entrar"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"/>
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Registrar-se"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"
+        android:text="Entre com suas redes sociais"
+        android:textSize="15dp"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face" />
+
+
+</LinearLayout>
