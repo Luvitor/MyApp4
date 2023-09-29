@@ -4,6 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Layout2_1Activity">
+    android:orientation="vertical"
+    tools:context=".Layout2_1Activity"
+    android:background="@drawable/fundo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opa"
+        android:textSize="40dp"
+        android:drawableBottom="@drawable/baseline_ac_unit"
+        android:textColor="@color/white"
+        android:fontFamily="serif-monospace"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/logo2" />
 
 </LinearLayout>
