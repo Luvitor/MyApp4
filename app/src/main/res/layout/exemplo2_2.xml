@@ -4,11 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
     tools:context=".Layout2_2Activity">
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
-        android:src="@drawable/fundo">
-    </ImageView>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:drawableBottom="@drawable/baseline_ac_unit"
+        android:fontFamily="serif-monospace"
+        android:text="Opa"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/baseline_person" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Usuário" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/baseline_lock" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Senha" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Esqueceu sua senha?"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+    <Button
+        android:layout_marginTop="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Entrar"
+        android:backgroundTint="#FDBA09"/>
+
+
 </LinearLayout>
